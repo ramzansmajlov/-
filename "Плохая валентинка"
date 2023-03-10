@@ -1,0 +1,30 @@
+from turtle import *
+
+hideturtle()
+color('orange')
+bgcolor('yellow')
+def sq():
+    width(10)
+    begin_fill()
+    up()
+    goto(0, -150)
+    down()
+    left(136)
+    forward(150)
+    circle(-77, 181)
+    left(90)
+    circle(-77, 181)
+    forward(150)
+    color('red')
+    end_fill()
+def name():
+    color('black')
+    up()
+    goto(-40, -10)
+    down()
+    write('ТЫ ЛОХ')
+
+sq()
+name()
+
+done()
